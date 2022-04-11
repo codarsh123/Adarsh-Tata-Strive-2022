@@ -1,0 +1,33 @@
+package Assignment;
+import java.util.Scanner;
+public class Assign1 
+{
+	public static void main(String args[]) 
+    {   
+      Scanner s= new Scanner(System.in);
+      System.out.println("Enter the radius:");
+      double rad= s.nextDouble();      
+      double  a=area(rad);
+      System.out.println("Area of Circle is: " + a);
+      Assign1 obj = new Assign1();
+      obj.Area(3, 4);
+      obj.Area(3);
+   }
+   static double area(double r)
+    {
+	return (22*r*r)/7;
+    }
+   void Area(double S, double T)
+   {
+       System.out.println("Area of the rectangle: "
+                          + S * T);
+   }
+   void Area(double side)
+   {
+       System.out.println("Area of the Square: "
+                          + side * side);
+   }
+ 
+ 
+
+}
