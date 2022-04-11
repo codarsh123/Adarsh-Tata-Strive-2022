@@ -1,0 +1,26 @@
+package pro1;
+
+public class ParCon {
+	int Seat=13;
+	String Name;
+	String sub;
+
+      ParCon (String n,String s) 
+      {
+				Name = n;
+		        sub = s;	
+	  }
+	void Disp()
+	{
+		System.out.println(Name+" "+sub);
+		System.out.println("Seat no Is " +Seat);
+	}
+
+	public static void main(String[] args) 
+	{
+		ParCon d = new ParCon("adarsh", "maths");
+		d.Disp();
+
+	}
+
+}
