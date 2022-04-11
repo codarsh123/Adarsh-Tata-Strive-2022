@@ -1,0 +1,31 @@
+package pro1;
+
+public class employee {
+	String Name;
+	int Salary;
+	String loc;
+	employee (String n,int s,String l) 
+    {
+				Name = n;
+		        Salary = s;	
+		        loc= l;
+	  }
+	
+	void Disp()
+	{
+		System.out.println(Name+" "+Salary+" "+loc);
+		
+	}
+	public static void main(String[] args) 
+	{
+		employee d = new employee("Shyam", 2000, "Mumbai");
+		employee e = new employee("Manas", 3000, "Pune");
+		employee f = new employee("Abhishek", 5000, "Nashik");
+
+		d.Disp();
+		e.Disp();
+		f.Disp();
+
+	}
+
+}
