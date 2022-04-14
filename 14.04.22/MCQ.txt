@@ -1,0 +1,5 @@
+1)d compile time error // Because x is private so it cannot be accessed by class B.
+
+2)b 1 2 3 // class C inherits class B and class B inherits class A, So all the property can be accessed by class C (As it is the child class of B and A),Hence this o/p will be displayed.
+
+3)a 50  // An object is created inside Main method and the value of n is placed inside the new object which is being printed.
